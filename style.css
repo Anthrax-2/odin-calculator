@@ -33,7 +33,7 @@ body {
     flex-direction: column;
 }
 
-.button {
+.buttons {
     display: flex;
     flex-wrap: wrap;
 }
