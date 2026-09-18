@@ -10,5 +10,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(201, 198, 198);
 }
 
+.output-field {
+    height: 100px;
+    display: flex;
+}
+
+#output {
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: default;
+}
+
+.box {
+    height: 500px;
+    width: 400px;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+}
