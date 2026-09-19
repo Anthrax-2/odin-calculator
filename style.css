@@ -23,17 +23,47 @@ body {
     border: none;
     outline: none;
     cursor: default;
+    border-radius: 10px 10px 0 0;
 }
 
 .box {
     height: 500px;
-    width: 400px;
+    width: 350px;
     background-color: #1c1c1c;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+
 }
 
 .buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    color: white;
+    padding: 1rem;
+    flex: 1;
+    gap: 0.5rem;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.row:nth-of-type(5) {
+    justify-content: flex-end;
+    padding-right: inherit;
+}
+
+button {
+    border: none;
+    font-size: 2rem;
+    border-radius: 100px;
+    flex-basis: 60px;
+    aspect-ratio: 1;
+    
 }
